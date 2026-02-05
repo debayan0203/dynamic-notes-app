@@ -1,4 +1,4 @@
-const API_URL = 'https://dynamic-notes-app.onrender.com';
+const API_URL = 'https://notes-app-tho0.onrender.com/';
 
 
 // Select elements
