@@ -12,6 +12,12 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
+const cors = require("cors");
+app.use(cors({
+  origin: "*"
+}));
+
+
 // test route
 app.get('/', (req, res) => {
   res.send('Backend is running 🚀');
